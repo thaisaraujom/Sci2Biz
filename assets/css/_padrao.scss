@@ -1,0 +1,60 @@
+:root {
+    --azul-escuro: #2B80B0;
+    --azul-transparente: rgba(43, 128, 176, 0.76);
+    --azul-medio: #3a83ad;
+    --amarelo: #FABE2C;
+    --amarelo-shadow: 0px 0px 7px #FABE2C;
+    --font: normal 16px "Exo", sans-serif;
+    --font-family: "Exo", sans-serif;
+    --azul-background: #D3E4E9;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+    font: var(--font);
+}
+
+.btn-link {
+    border-radius: 10px;
+
+    padding: 10px 2%;
+    cursor: pointer;
+
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 18px;
+
+    &:hover {
+        box-shadow: var(--amarelo-shadow);
+    }
+}
+
+.section-titulo {
+    color: var(--azul-escuro);
+    text-align: center;
+    font-size: 40px;
+}
+
+.section-individual {
+    padding: 90px 0;
+    width: 100%;
+
+
+}
+
+.section-padrao {
+    padding: 90px 0;
+    width: 100%;
+}
