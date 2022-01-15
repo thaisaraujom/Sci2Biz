@@ -1,0 +1,55 @@
+#eventos {
+    .eventos-conteudo {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 50px;
+        width: calc(100% - 100px);
+
+        &_card {
+            width: 30%;
+            margin: 0 10px;
+
+        }
+    }
+
+    .calendario {
+        filter: invert(41%) sepia(72%) saturate(508%) hue-rotate(158deg) brightness(92%) contrast(86%);
+        width: 30px;
+        height: auto;
+    }
+
+    .h3-eventos {
+        color: var(--azul-escuro);
+        text-align: center;
+        font-size: 20px;
+    }
+    .h3-eventos:hover {
+        opacity: 0.90;
+        transition: 0.35s;
+    }
+    .p-eventos {
+        margin: 20px 0;
+        font-size: 16px;
+    }
+    .eventos-data {
+        display: flex;
+        align-items: center;
+    }
+    .p-data {
+        color: var(--azul-escuro);
+        margin-left: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 994px) {
+    #eventos {
+        .eventos-conteudo {
+            flex-wrap: wrap;
+            &_card {
+                width: 100%;
+                margin: 30px 0;
+            }
+        }
+    }
+}

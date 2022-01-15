@@ -38,6 +38,7 @@ html {
 
     &:hover {
         box-shadow: var(--amarelo-shadow);
+        transition: 0.3s;
     }
 }
 
@@ -50,11 +51,26 @@ html {
 .section-individual {
     padding: 90px 0;
     width: 100%;
-
-
 }
 
 .section-padrao {
     padding: 90px 0;
+    width: 100%;
+}
+
+.btn-link-section {
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: var(--amarelo);
+    font-size: 20px;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+.btn-centralizar {
+    display: flex;
+    justify-content: center;
     width: 100%;
 }

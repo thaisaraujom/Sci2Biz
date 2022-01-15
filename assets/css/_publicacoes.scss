@@ -1,0 +1,125 @@
+#publi {
+    background-image: url('../img/publicacoes/background_publicacoes.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .overlay1 {
+        background: #5fa7d17e;
+        width: 100%;
+    }
+
+    .overlay2 {
+        background: rgba(255, 255, 255, 0.5);
+        width: 100%;
+    }
+
+    .publicacoes-conteudo {
+        display: flex;
+        flex-direction: row;
+        margin: 50px 50px;
+
+        &_esquerda,
+        &_direita {
+            width: 50%;
+        }
+
+        &_esquerda {
+            margin-right: 20px;
+        }
+
+        &_direita {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            margin-left: 20px;
+        }
+
+        &_card {
+            display: flex;
+            flex-direction: column;
+
+            box-shadow: 0px 1px 5px 1px rgba(255, 255, 255, 0.87);
+            border-radius: 20px;
+
+            background: #FFFFFF;
+
+            padding: 20px 25px;
+        }
+        .publicacoes-titulo {
+            display: flex;
+            align-items: center;
+            img {
+                width: 50px;
+                height: auto;
+            }
+
+            margin-bottom: 20px;
+        }
+        .h3-publi {
+            font-size: 20px;
+        }
+        .h4-publi {
+            font-size: 18px;
+            color: var(--azul-escuro);
+        }
+        .p-publi {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+    }
+    .btn-txt {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        p {
+            text-transform: uppercase;
+            margin-right: 5px;
+            font-size: 18px;
+        }
+    }
+    .btn-redondo {
+        width: 30px;
+        height: 30px;
+        background-color: var(--azul-escuro);
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 15px;
+            height: auto;
+        }
+    }
+    .p-publi-direita {
+        font-size: 20px;
+        text-align: justify;
+    }
+    .btn-text-direita {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media(max-width: 994px){
+    #publi {
+        .publicacoes-conteudo {
+            flex-direction: column;
+
+            &_esquerda,
+            &_direita {
+                width: 100%;
+                margin-left: 0;
+
+                margin: 20px 0;
+            }
+        }
+        .btn-text-direita {
+            display: flex;
+            justify-content: center;
+
+            margin-top: 50px;
+        }
+    }
+}

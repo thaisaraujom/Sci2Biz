@@ -14,9 +14,44 @@
         rel="stylesheet">
     <link rel="stylesheet" href="assets/css/index.css">
     <title>Sci2Biz</title>
+
+    <style>
+        .background-img {
+            width: 100%;
+            height: 220px;
+
+            background-color: grey;
+            border-radius: 20px;
+
+            margin-bottom: 10px;
+        }
+        .background-img-add {
+            
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+        }
+        .background-img-add:hover {
+            opacity: 0.8;
+            transition: 0.5s;
+        }
+        .background-img-add1 {
+            background-image: url('./assets/img/eventos/img1.jpg');
+        }
+        .background-img-add2 {
+            background-image: url('./assets/img/eventos/img2.jpg');
+        }
+        .background-img-add3 {
+            background-image: url('./assets/img/eventos/img3.jpg');
+        }
+    </style>
 </head>
 
 <body>
+    <!-- MENU -->
     <header id="navbar">
         <nav class="navbar-conteudo">
             <div class="logo">
@@ -47,6 +82,7 @@
         </nav>
     </header>
 
+    <!-- HOME -->
     <section id='home'>
         <div class="overlay">
             <div class="home-conteudo">
@@ -60,6 +96,7 @@
         </div>
     </section>
 
+    <!-- TRANSFORMANDO CONHECIMENTO -->
     <section id="sobre1" class="section-individual">
         <h1 class="section-titulo">Transformando conhecimento em ativo econômico</h1>
         <div class="cards">
@@ -80,16 +117,107 @@
         </div>
     </section>
 
+    <!-- SOBRE -->
     <section id="sobre2" class="section-padrao">
         <h1 class="section-titulo">Sobre a Sci2Biz</h1>
 
         <div class="sobre-conteudo">
             <div class="sobre-conteudo_esquerda">
-                <h3 class="sobre-destaque">Um dos principais desafios brasileiros é e tem sido transformar a produção acadêmica em riqueza socioeconômica. </h3>
-                <p class="sobre-paragrafo">Diante desse contexto, a Sci2Biz (da Ciências aos Negócios, do inglês: from Science to Business), Desenvolvida pela professora Zulmara Virgínia de Carvalho, é uma metodologia que consiste em uma estratégia de ensino-aprendizagem alicerçada em pesquisa e foi desenvolvida a partir da demanda de difundir a cultura da inovação no ambiente acadêmico.</p>
+                <h3 class="h3-sobre">Um dos principais desafios brasileiros é e tem sido transformar a produção acadêmica em riqueza socioeconômica. </h3>
+                <p class="p-sobre">Diante desse contexto, a Sci2Biz (da Ciências aos Negócios, do inglês: from Science to Business), desenvolvida pela professora Zulmara Virgínia de Carvalho, é uma metodologia que consiste em uma estratégia de ensino-aprendizagem alicerçada em pesquisa e foi desenvolvida a partir da demanda de difundir a cultura da inovação no ambiente acadêmico.</p>
+
+                <a class="btn-link btn-link-section" href="">Mais</a>
             </div>
             <div class="sobre-conteudo_direita">
                 <img src="./assets/img/sobre/luz.svg" alt="" class="sobre-img-idea">
+            </div>
+        </div>
+    </section>
+
+    <!-- EVENTOS -->
+    <section id="eventos" class="section-padrao">
+        <h1 class="section-titulo">Eventos</h1>
+        <div class="eventos-conteudo">
+
+            <div class="eventos-conteudo_card">
+                <div class="background-img">
+                    <a href=""><div class="background-img-add background-img-add1"></div></a>
+                </div>
+                <a href=""><h3 class="h3-eventos">XVII Congresso Brasileiro de Ciência e Tecnologia</h3></a>
+                <p class="p-eventos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius nisi arcu. Ut molestie mattis urna, non fringilla nisl ullamcorper eget. Nullam eget ultrices nisi... </p>
+                <div class="eventos-data">
+                    <img class="calendario" src="./assets/img/eventos/calendario.svg" alt="">
+                    <p class="p-data">01/07/2021 A 03/07/2021</p>
+                </div>
+            </div>
+
+            <div class="eventos-conteudo_card">
+                <div class="background-img">
+                    <a href=""><div class="background-img-add background-img-add2"></div></a>
+                </div>
+                <a href=""><h3 class="h3-eventos">Laboratório de Ciência, Tecnologia e Inovação da Sci2Biz</h3></a>
+                <p class="p-eventos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius nisi arcu. Ut molestie mattis urna, non fringilla nisl ullamcorper eget. Nullam eget ultrices nisi... </p>
+                <div class="eventos-data">
+                    <img class="calendario" src="./assets/img/eventos/calendario.svg" alt="">
+                    <p class="p-data">01/07/2021 A 03/07/2021</p>
+                </div>
+            </div>
+
+            <div class="eventos-conteudo_card">
+                <div class="background-img">
+                    <a href=""><div class="background-img-add background-img-add3"></div></a>
+                </div>
+                <a href="suap.edu.br"><h3 class="h3-eventos">Tecnologia inovadora para produção de pesquisas científicas na UFRN</h3></a>
+                <p class="p-eventos">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur varius nisi arcu. Ut molestie mattis urna, non fringilla nisl ullamcorper eget. Nullam eget ultrices nisi... </p>
+                <div class="eventos-data">
+                    <img class="calendario" src="./assets/img/eventos/calendario.svg" alt="">
+                    <p class="p-data">01/07/2021 A 03/07/2021</p>
+                </div>
+            </div>           
+        </div>
+
+        <div class="btn-centralizar">
+            <a class="btn-link btn-link-section" href="">Saiba Mais</a>
+        </div>
+
+    </section>
+
+    <!-- PUBLICAÇÕES-->
+    <section id="publi">
+        <div class="overlay1">
+            <div class="overlay2 section-padrao">
+                <h1 class="section-titulo">Publicações</h1>
+
+                <div class="publicacoes-conteudo">
+
+                    <div class="publicacoes-conteudo_esquerda">
+                        <div class="publicacoes-conteudo_card">
+                            <div class="publicacoes-titulo">
+                                <img src="./assets/img/publicacoes/lampada.svg" alt="">
+                                <h3 class="h3-publi">Energia Solar: uma perspectiva mercadológica para pesquisas acadêmicas</h3>
+                            </div>
+                            <h4 class="h4-publi">Autores:</h4>
+                            <p class="p-publi">Mariana Brito Azevedo, Thaís de Araújo de Medeiros, Zulmara Virgínia Carvalho</p>
+                            <h4 class="h4-publi">Palavras-chave:</h4>
+                            <p class="p-publi">Energia solar, placas fotovoltaicas, análise mercadológica</p>
+                            <h4 class="h4-publi">Categoria:</h4>
+                            <p class="p-publi">Energias renováveis</p>
+                            <div class="btn-txt">
+                                <p>Leia Mais</p>
+                                <a href="" class="btn-redondo"><img src="./assets/img/publicacoes/seta_btn.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="publicacoes-conteudo_direita">
+                        <p class="p-publi-direita">Pellentesque sed nibh ipsum. Fusce ullamcorper mi et vehicula luctus. Curabitur quis commodo enim, convallis rutrum magna. Fusce at augue venenatis, blandit odio sit amet, congue dui. Suspendisse tincidunt erat sit amet justo maximus fringilla. Donec vehicula est id justo commodo mattis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas soluta consequatur at debitis, quisquam praesentium nulla consectetur. Dignissimos consectetur obcaecati facilis, libero aperiam inventore vitae quos omnis, animi sequi eaque!</p>
+                        <div class="btn-text-direita">
+                            <a href="" class="btn-link btn-link-section">Confira</a>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
         </div>
     </section>
