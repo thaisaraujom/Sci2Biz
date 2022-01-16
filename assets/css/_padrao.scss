@@ -46,6 +46,7 @@ html {
     color: var(--azul-escuro);
     text-align: center;
     font-size: 40px;
+    margin: 0 50px;
 }
 
 .section-individual {
@@ -106,5 +107,16 @@ a:visited, a:link, a:active {
 @media (max-width: 994px) {
     #footer-index {
         flex-direction: column;
+    }
+}
+
+@media (max-width: 500px) {
+    .btn-link {
+        font-size: 16px;
+    }
+    .section-titulo {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 30px;
     }
 }

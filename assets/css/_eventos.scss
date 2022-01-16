@@ -53,3 +53,19 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    #eventos {
+        .eventos-conteudo {
+            margin-left: 20px;
+            margin-right: 20px;
+            width: calc(100% - 40px);
+        }
+        .h3-eventos {
+            font-size: 18px;
+        }
+        .calendario {
+            width: 27px;
+        }
+    }
+}

@@ -40,3 +40,25 @@
         margin-right: 10px;
     }
 }
+
+@media (max-width: 500px) {
+    #home {
+        .home-titulo, .home-subtitulo {
+            font-size: 35px;
+        }
+        .home-titulo {
+            margin: 0 20px;
+        }
+        .home-subtitulo {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .home-btn {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .home-btn-h {
+            padding: 10px;
+        }
+    }
+}

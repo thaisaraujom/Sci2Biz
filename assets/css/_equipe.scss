@@ -50,3 +50,18 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    #equipe {
+        .equipe-conteudo {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .h3-equipe {
+            font-size: 18px;
+        }
+        .p-equipe {
+            font: 16px;
+        }
+    }
+}

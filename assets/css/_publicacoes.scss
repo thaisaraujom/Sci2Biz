@@ -111,7 +111,6 @@
     #publi {
         .publicacoes-conteudo {
             flex-direction: column;
-
             &_esquerda,
             &_direita {
                 width: 100%;
@@ -125,6 +124,22 @@
             justify-content: center;
 
             margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    #publi {
+        .publicacoes-conteudo {
+            margin-left: 20px;
+            margin-right: 20px;
+
+            .h3-publi {
+                font-size: 18px;
+            }
+        }
+        .p-publi-direita {
+            font-size: 18px;
         }
     }
 }

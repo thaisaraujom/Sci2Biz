@@ -48,3 +48,15 @@
         }
     }
 }
+
+@media (max-width: 500px) {
+    #noticias {
+        .noticias-conteudo {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .h3-noticias {
+            font-size: 18px;
+        }
+    }
+}

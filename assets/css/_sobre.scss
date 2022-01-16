@@ -107,10 +107,24 @@
     }
 }
 
-@media (max-width: 499px) {
+@media (max-width: 500px) {
+    #sobre1 {
+        .card {
+            h3 {
+                font-size: 18px;
+            }
+        }
+    }
     #sobre2 {
         .sobre-img-idea {
             min-width: 300px;
+        }
+        .sobre-conteudo {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .h3-sobre, .p-sobre {
+            font-size: 18px;
         }
     }
 }

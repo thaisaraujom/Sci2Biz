@@ -84,6 +84,7 @@
     }
     .form-padrao {
         width: 100%;
+        margin-left: 0;
     }
     .contato-conteudo-cima {
         flex-direction: column;
@@ -94,5 +95,20 @@
     }
     .contato-icon {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    #contato {
+        .contato-conteudo {
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .form-padrao {
+            input, textarea {
+                padding: 10px;
+                font-size: 15px;
+            }
+        }
     }
 }
