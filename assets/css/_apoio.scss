@@ -1,0 +1,20 @@
+.apoio-conteudo {
+    margin: 50px;
+}
+.img-slick {
+    width: 250px;
+    height: auto;
+}
+
+@media (max-width: 994px) {
+    .img-slick {
+        width: 200px;
+        height: auto;
+    }
+}
+@media (max-width: 500px) {
+    .img-slick {
+        width: 150px;
+        height: auto;
+    }
+}
